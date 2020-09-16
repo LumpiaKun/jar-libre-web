@@ -1,0 +1,227 @@
+.body {
+    font-family: 'Comfortaa', cursive;
+    background-color: #272727;
+}
+
+.header {
+    width: 100%;
+    max-width: 1786px;
+    margin: 0 auto;
+    padding-right: 75px;
+    padding-left: 75px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-sizing: border-box;
+    font-weight: 700;
+}
+.wrap {
+    width: 100%;
+    max-width: 1786px;
+    margin: 0 auto;
+    padding-right: 20px;
+    padding-left: 20px;
+}
+.navi {
+    list-style-type: none;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.navi>li {
+    font-size: 30px;
+    margin-left: 75px;
+    margin-top: 20px;
+    color: #2DC7BD;
+}
+.navi>li>a {
+    text-decoration: none;
+    color: #2DC7BD;
+}
+.logo {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+}
+.logo-text {
+    font-size: 30px;
+    color: #2DC7BD;
+    margin-top: 20px;
+}
+.logo-image {
+    display: flex;
+    width: 41px;
+    height: 73px;
+    background-image: url(../images/logo.svg);
+    margin-right: 30px;
+    margin-top: 20px;
+}
+.page {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    width: 100%;
+    max-width: 1700px;
+    margin: 0 auto;
+   
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-sizing: border-box;
+    
+   
+}
+.page h1 {
+    font-size: 40;
+    font-weight: 700;
+    color: #11C5BA;
+
+}
+.page p {
+    font-size: 20;
+    font-weight: 400;
+    color: #11C5BA;
+    width: 100%;
+    max-width: 899px;
+}
+.page-top {
+    border-top: 1px solid #11C5BA;
+    padding-bottom: 50px;
+    padding-top: 50px;
+}
+.page-top h2 {
+    position: absolute;
+    top: 635px;
+    font-size: 20px;
+    font-weight: 400;
+    background-color: #272727;
+    margin-left: 40px;
+    color: #11C5BA;
+    padding: 10px 20px;
+}
+.page-top p{
+    font-weight: 500px;
+    font-size: 20px;
+    color: #11C5BA;
+    
+}
+.announcement p {
+    padding: 20px 10px;
+
+}
+.button {
+    background-color: #11C5BA;
+    border-radius: 8px;
+    padding: 10px 15px;
+    color: #272727;
+    border: none;
+    font-weight: 600;
+    display: inline-block;
+    transition: 200ms;
+}
+.button:hover {
+    transform: translateY(-8px);
+}
+.illustration {
+    display: block;
+    width: 607px;
+    height: 445px;
+    background-image: url(../images/Group\ 11.svg);
+    margin-right: 30px;
+    margin-top: 20px;
+    
+}
+.wrapper {
+    width: 100%;
+    max-width: 1786px;
+    margin: 0 auto;
+    padding-right: 75px;
+    padding-left: 75px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-sizing: border-box;
+    font-weight: 700;
+}
+.links {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+
+.page-bottom {
+    border-top: 1px solid #11C5BA;
+    padding-bottom: 50px;
+    padding-top: 50px;
+}
+.page-bottom h3 {
+    position: absolute;
+    top: 970px;
+    font-size: 20px;
+    font-weight: 400;
+    background-color: #272727;
+    margin-left: 60px;
+    color: #11C5BA;
+    padding: 10px 20px;
+}
+.fb {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    position: relative;
+}
+.fb-icon {
+    display: block;
+    width: 50px;
+    height: 50px;
+    background-image: url(../images/Group\ 2.svg);
+    margin-right: 30px;
+    margin-top: 10px;
+    transition: 300ms;
+}
+.fb-link {
+    font-size: 20px;
+    color: #2DC7BD;
+    margin-top: 10px;
+    margin-right: 160px;
+
+}
+.fb-icon:hover {
+    transform: rotate(-20deg);
+
+}
+.google {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    position: relative;
+}
+.g-icon {
+    display: block;
+    width: 60px;
+    height: 60px;
+    background-image: url(../images/Group\ 3.svg);
+    margin-right: 30px;
+    margin-top: 10px;
+    
+    transition: 300ms;
+}
+.gmail-email {
+    font-size: 20px;
+    color: #2DC7BD;
+    margin-top: 8px;
+}
+.g-icon:hover {
+    transform: rotate(-20deg);
+
+}
+/*footnote*/
+.footnote {
+    color: #ffffff;
+    font-weight: 300;
+    font-size: 10px;
+    text-align: center;
+    margin-top: 10px;
+}

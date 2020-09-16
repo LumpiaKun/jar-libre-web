@@ -1,0 +1,127 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+.body {
+    background-color: #272727;
+}
+/* nav bar*/
+#nav-bar {
+    position: sticky;
+    top: 0;
+    z-index: 10;
+}
+.navbar  {
+    background-color: #272727;
+    padding: 0 !important;
+    font-family: "Comfortaa", cursive;
+}
+.navbar-brand img {
+    height: 40px;
+    padding-left: 20px;
+}
+.navbar-nav li {
+    padding: 0 10px;
+}
+.navbar-nav li a {
+    color: #11C5BA !important;
+    font-weight: 700;
+    float: right;
+    text-align: left;
+}
+.navbar-toggler svg {
+    font-size: 20px !important;
+    color: #11C5BA;
+    
+}
+.navbar-toggler {
+    border: none !important;
+}
+.logo-name {
+    color: #11C5BA;
+    font-family: 'Comfortaa', cursive;
+}
+/*abt us*/
+
+#about-us h1 {
+    color: #11C5BA;
+    font-family: "Comfortaa";
+}
+.title {
+    font-family: "Comfortaa";
+}
+.abtus {
+    font-family: "Quicksand";
+    color: #11C5BA;
+    font-size: 30px;
+    margin: 20px 0;
+}
+.about-title {
+    font-size: 40px;
+    font-weight: 600;
+    margin-top: 5%;
+    color: #11C5BA;
+}
+#about-us ul li {
+    margin: 10px 0;
+    color: #11C5BA;
+    font-family: "Quicksand";
+    font-size: 20px;
+}
+#about-us ul {
+    margin-left: 20px;
+}
+.title::before {
+    content: '';
+    background: #11C5BA;
+    height: 5px;
+    width: 150px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    transform: translateY(63px);
+}
+.title::after {
+    content: '';
+    background: #11C5BA;
+    height: 10px;
+    width: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    transform: translateY(8px);
+}
+/*developers*/
+#developers {
+   
+    padding-bottom: 50px;
+    padding-top: 50px;
+    
+}
+#developers h1 {
+    color: #11C5BA;
+}
+
+.profiles {
+    border-left: 5px solid #11C5BA;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.profiles img {
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    margin: 10px 0;
+}
+.profiles p {
+    color: #11C5BA;
+    font-family: "Quicksand";
+}
+.quotes {
+    font-size: 30px;
+}
+.dev-details {
+    display: inline-block;
+    font-size: 20px;
+}

@@ -10,6 +10,12 @@ body {
 }
 /* nav bar*/
 #nav-bar {
+    /*
+    display : flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-wrap:  = nowrap;
+*/
     position: sticky;
     top: 0;
     z-index: 10;

@@ -125,3 +125,16 @@
     display: inline-block;
     font-size: 20px;
 }
+/*footnote*/
+.footnote {
+    color: #11C5BA;
+    
+}
+.credits {
+    color: #11C5BA;
+}
+.credits a {
+    text-decoration: none;
+    color: #11C5BA;
+    padding: 20px 20px;
+}

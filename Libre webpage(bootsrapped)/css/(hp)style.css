@@ -4,7 +4,7 @@
     margin: 0;
     padding: 0;
 }
-body {
+.body {
     font-family: "Quicksand";
     
 }
@@ -134,6 +134,17 @@ body {
     border-radius: 20px;
     background-color: #11C5BA;
 }
+#btn {
+    box-shadow: none;
+    padding: 8px 25px;
+    border: none;
+    border-radius: 20px;
+    background-color: #11C5BA;
+}
+#more {
+    display: none;
+}
+
 /*ABOUT US*/
 #about-us {
     background: #272727;

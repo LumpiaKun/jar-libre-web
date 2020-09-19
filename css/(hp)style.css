@@ -4,6 +4,8 @@
     margin: 0;
     padding: 0;
 }
+
+
 .body {
     font-family: "Quicksand";
     
@@ -51,6 +53,12 @@
     font-family: 'Comfortaa', cursive;
 }
 /* banner section*/
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
 
 #banner {
     padding-top: 5%;

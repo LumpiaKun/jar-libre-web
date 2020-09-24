@@ -1,0 +1,100 @@
+@import url("https://use.typekit.net/qsj3lay.css");
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+/* nav bar*/
+#nav nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  min-height: 5vh;
+  background: #FFF2DE;
+  font-family: 'Baloo Tammudu 2';
+}
+
+#nav .logo {
+  font-size: 2em;
+  color: #01122C;
+  letter-spacing: 5px;
+}
+
+#nav .nav-links {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  width: 35%;
+}
+
+#nav .nav-links li {
+  list-style-type: none;
+}
+
+#nav .nav-links a {
+  text-decoration: none;
+  color: #01122C;
+  letter-spacing: 3px;
+  font-weight: 700;
+  font-size: 15px;
+}
+
+#nav .menu {
+  display: none;
+}
+
+#nav .menu div {
+  width: 25px;
+  height: 3px;
+  background-color: #01122C;
+  margin: 5px;
+}
+
+@media screen and (max-width: 1024px) {
+  .nav-links {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  body {
+    overflow-x: hidden;
+  }
+  .menu {
+    display: block;
+  }
+  .nav-links {
+    position: absolute;
+    right: 0px;
+    height: 95vh;
+    top: 5vh;
+    background-color: #FFF2DE;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    width: 60%;
+    -webkit-transform: translateX(100%);
+            transform: translateX(100%);
+  }
+  .nav-links li {
+    opacity: 0;
+  }
+}
+/*# sourceMappingURL=style.css.map */

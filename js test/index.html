@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <link href="https://fonts.googleapis.com/css2?family=Baloo+Tammudu+2:wght@500;600;700&family=Comfortaa:wght@500;700&family=Montserrat:ital,wght@0,400;0,500;1,500&family=Quicksand:wght@600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="test.css">
+  <title>Document</title>
+</head>
+<body>
+  <!----------------navbar------------->
+  <section id="nav">
+    <nav>
+      <div class="logo">
+        <h4>
+          Libre
+        </h4>
+      </div>
+      <ul class="nav-links">
+        <li>
+          <a href="#">about us</a>
+        </li>
+
+        <li>
+          <a href="#">showreel</a>
+        </li>
+
+        <li>
+          <a href="#">menu</a>
+        </li>
+
+      </ul>
+      <div class="burger">
+        <div class="line1"></div>
+        <div class="line2"></div>
+        <div class="line3"></div>
+      </div>
+    </nav>
+  </section>
+
+  <!--------------------banner section----------------->
+  <header>
+    <h1>Free Digital Library</h1>
+    <p>We help you study</p>
+  </header>
+
+  <!-----------------------contents------------------------->
+  <section class="features">
+    <div class="prj-features">
+      <h1>Project</h1>
+      <h2>features</h2>
+    </div>
+    <div class="feats">
+      <div>
+        <h2>Memory Efficient</h2>
+        <p></p>
+        <img src="" alt="">
+      </div>
+      <div> 
+        <h2>Lightweight</h2>
+        <p></p>
+        <img src="" alt="">
+      </div>
+      <div>
+        <h2>Compressed Database</h2>
+        <p></p>
+        <img src="" alt="">
+      </div>
+      <div>
+        <h2>Intuitive Interface</h2>
+        <p></p>
+        <img src="" alt="">
+      </div>
+    </div>
+
+  </section>
+  <!-------------------------contacts------------------------->
+  <footer>
+    <div class="title">
+      <h1>Want to <br> 
+        contribute?</h1>
+      <h1>Tell us. <span class="underline"></span></h1>
+    </div>
+    <div class="info">
+      <a href=""><h4>https://lumpiakun.github.io/jar-libre-web/</h4></a>
+      <p>4 Ibingay St., <br> Masbate City, Masbate</p>
+      <p>Policies </p>
+    </div>
+    <div class="socmed">
+      <h6>Facebook</h6>
+      <h6>Google</h6>
+      <h6>Github</h6>
+    </div>
+
+  </footer>
+  <!------------------script-->
+  <script src="main.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.7/ScrollMagic.min.js" integrity="sha512-HzAEuXwhLxwm/Jj+5ecdjzrRVrjuh2ZeIxyT1Ln37TO5pWNMnKBuU7cfd1wvRQ/k86w1oC174Yk1T7aRlBpIcA==" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.7/plugins/debug.addIndicators.min.js" integrity="sha512-Ey+nIg+Ue8gUAaCNjR1KHR8nwDjWn9QXoQbynR/X+V66s6u1oqynnuRQ8zSgg5f5gBNb2Bzsu1pItCi3sPkbfA==" crossorigin="anonymous"></script>
+  <script>
+    function splitScroll(){
+    const controller = new ScrollMagic.Controller();
+    
+    new ScrollMagic.Scene ({
+      duration: '325%', 
+      triggerElement:'.prj-features',
+      triggerHook: '.feats div:nth-child(1)'
+        
+    })
+    .setPin('.prj-features')
+    .addTo(controller);
+    }
+    splitScroll();
+  </script>
+
+
+
+
+</body>
+</html>

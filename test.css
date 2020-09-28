@@ -46,6 +46,16 @@
     background: #EFF8F7;
     font-family: 'Baloo Tammudu 2';
 }
+#nav .btn-dl {
+    border: none;
+    background-color: #01122C;
+    color: #EFF8F7;
+    padding: 10px;
+    border-radius: 15px;
+    font-size: 1em;
+    font-family: 'reross quadratic';
+    font-weight: 400;
+}
 /*header*/
 header {
     font-family: 'reross quadratic';
@@ -145,6 +155,13 @@ footer {
     color: #EFF8F7;
     font-family: 'reross quadratic';
 }
+.title h2 {
+    font-size: 2.2em;
+}
+.title h1 {
+    -webkit-text-stroke: 2px #EFF8F7;
+    color: transparent;
+}
 .icons {
     display: none;
 }
@@ -228,7 +245,7 @@ footer {
     top: 3vh;
     background-color: #EFF8F7;
     display: flex;
-    flex-direction: column;
+    flex-direction: column-reverse;
     align-items: center;
     width: 60%;
     transform: translateX(100%);
